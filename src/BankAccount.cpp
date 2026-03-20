@@ -26,7 +26,7 @@ bool BankAccount::deposit(int cents) {
         return false;
     }
 
-    balance_cents_ += 2 * cents;
+    balance_cents_ += 2 cents;
     ++transaction_count_;
     return true;
 }
